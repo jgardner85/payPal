@@ -87,7 +87,7 @@ public class LoginServlet extends HttpServlet
 		}
 		private void printPaymentInfoForm(PrintWriter out,String user,String pass)
 		{
-			out.println("<form action=\"PaymentInfoServlet\" method=\"post\"><table>");
+			out.println("<form action=\"PaymentInfoServlet2\" method=\"post\"><table>");
 			out.println("<tr><td><input type=\"hidden\" name=\"user\" value=\""+user+"\" />");
 			out.println("<tr><td><input type=\"hidden\" name=\"pass\" value=\""+pass+"\" />");
 			out.println("<tr><td>Amount<td><input name=\"amount\" value=\"10\" />");

@@ -13,6 +13,10 @@
 		<servlet-class>jbg.PaymentInfoServlet</servlet-class>
 	</servlet>
 	<servlet>
+		<servlet-name>PaymentInfoServlet2</servlet-name>
+		<servlet-class>jbg.PaymentInfoServlet2</servlet-class>
+	</servlet>
+	<servlet>
 		<servlet-name>CancelServlet</servlet-name>
 		<servlet-class>jbg.CancelServlet</servlet-class>
 	</servlet>
@@ -27,6 +31,10 @@
 	<servlet-mapping>
 		<servlet-name>PaymentInfoServlet</servlet-name>
 		<url-pattern>/PaymentInfoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PaymentInfoServlet2</servlet-name>
+		<url-pattern>/PaymentInfoServlet2</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>CancelServlet</servlet-name>

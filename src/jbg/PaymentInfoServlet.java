@@ -109,7 +109,7 @@ public class PaymentInfoServlet extends HttpServlet
 	        // A Payment Resource; create one using
 	        // the above types and intent as 'sale'
 	        Payment payment = new Payment();
-	        payment.setIntent("authorize");
+	        payment.setIntent("sale");
 	        payment.setPayer(payer);
 	        payment.setTransactions(transactions);
 	
